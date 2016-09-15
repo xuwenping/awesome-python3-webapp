@@ -5,6 +5,7 @@ import orm
 import asyncio
 import sys
 from models import User, Blog
+import os
 
 async def test(loop):
     await orm.create_pool(loop=loop, user='root', password='123456', db='awesome')
