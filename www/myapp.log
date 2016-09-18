@@ -1,0 +1,27 @@
+Thu, 01 Sep 2016 21:42:12 orm.py[line:104] INFO found model: User (table: users)
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: image ==> <StringField, varchar(500):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: passwd ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: name ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: admin ==> <BooleanField, boolean:None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: create_at ==> <FloatField, real:None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: email ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: id ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:104] INFO found model: Blog (table: blogs)
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: summary ==> <StringField, varchar(200):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: create_at ==> <FloatField, real:None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: user_image ==> <StringField, varchar(500):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: user_id ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: user_name ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: name ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: content ==> <TextField, text:None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: id ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:104] INFO found model: Comment (table: comments)
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: user_image ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: user_id ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: user_name ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: content ==> <TextField, text:None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: created_at ==> <FloatField, real:None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: blog_id ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:110] INFO  found mapping: id ==> <StringField, varchar(50):None>
+Thu, 01 Sep 2016 21:42:12 orm.py[line:18] INFO create database connection pool...
+Thu, 01 Sep 2016 21:42:12 orm.py[line:15] INFO SQL: insert into `users` (`image`, `passwd`, `name`, `admin`, `create_at`, `email`, `id`) values (?, ?, ?, ?, ?, ?, ?)
