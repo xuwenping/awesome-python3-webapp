@@ -2,225 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d373783-82a6-4b96-ad02-0abefe4b125d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/register.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/signin.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/accordion.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/accordion.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/accordion.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/accordion.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/accordion.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/autocomplete.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/autocomplete.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/autocomplete.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/autocomplete.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/autocomplete.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/autocomplete.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/datepicker.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/datepicker.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/datepicker.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/datepicker.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/datepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/dotnav.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/dotnav.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/dotnav.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/dotnav.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/dotnav.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/dotnav.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-advanced.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-advanced.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-advanced.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-advanced.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-advanced.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-advanced.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-file.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-file.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-file.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-file.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-file.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-file.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-password.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-password.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-password.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-password.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-password.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-password.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-select.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-select.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-select.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-select.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-select.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/form-select.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/htmleditor.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/htmleditor.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/htmleditor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/htmleditor.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/htmleditor.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/htmleditor.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/nestable.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/nestable.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/nestable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/nestable.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/nestable.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/nestable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/notify.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/notify.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/notify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/notify.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/notify.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/notify.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/placeholder.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/placeholder.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/placeholder.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/placeholder.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/placeholder.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/placeholder.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/progress.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/progress.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/progress.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/progress.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/progress.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/progress.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/search.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/search.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/search.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/search.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/search.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/search.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slidenav.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slidenav.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slidenav.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slidenav.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slidenav.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slidenav.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slider.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slider.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slider.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slider.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slider.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slideshow.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slideshow.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slideshow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slideshow.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slideshow.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/slideshow.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/sortable.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/sortable.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/sortable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/sortable.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/sortable.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/sortable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/sticky.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/sticky.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/sticky.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/sticky.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/sticky.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/sticky.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/tooltip.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/tooltip.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/tooltip.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/tooltip.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/tooltip.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/upload.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/upload.almost-flat.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/upload.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/upload.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/upload.gradient.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/components/upload.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/uikit.almost-flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/uikit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/css/uikit.gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/accordion.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/autocomplete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/autocomplete.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/datepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/form-password.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/form-password.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/form-select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/form-select.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/grid-parallax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/grid-parallax.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/grid.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/htmleditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/htmleditor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/lightbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/lightbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/nestable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/nestable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/notify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/notify.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/pagination.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/pagination.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/parallax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/parallax.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/search.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/slider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/slideset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/slideset.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/slideshow-fx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/slideshow-fx.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/slideshow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/slideshow.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/sortable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/sortable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/sticky.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/sticky.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/timepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/timepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/tooltip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/components/upload.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/alert.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/button.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/core.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/cover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/cover.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/dropdown.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/grid.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/modal.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/nav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/nav.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/offcanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/offcanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/scrollspy.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/smooth-scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/smooth-scroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/switcher.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/switcher.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/tab.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/toggle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/toggle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/touch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/touch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/utility.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/core/utility.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/static/js/uikit.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/www/static/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/www/static/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/www/static/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.py" afterPath="$PROJECT_DIR$/www/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/coroweb.py" afterPath="$PROJECT_DIR$/www/coroweb.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/handlers.py" afterPath="$PROJECT_DIR$/www/handlers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/css/uikit.almost-flat.min.css" afterPath="$PROJECT_DIR$/www/static/css/uikit.almost-flat.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/css/uikit.gradient.min.css" afterPath="$PROJECT_DIR$/www/static/css/uikit.gradient.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/css/uikit.min.css" afterPath="$PROJECT_DIR$/www/static/css/uikit.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/static/js/uikit.min.js" afterPath="$PROJECT_DIR$/www/static/js/uikit.min.js" />
     </list>
     <ignored path="awesome-python3-webapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -246,37 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="orm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/orm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-              <folding>
-                <marker date="1472897832000" expanded="true" signature="4288:4313" ph="select `%s`,... " />
-                <marker date="1472897832000" expanded="true" signature="4399:4438" ph="insert into `%s`... " />
-                <marker date="1472897832000" expanded="true" signature="4569:4600" ph="update `%s` " />
-                <marker date="1472897832000" expanded="true" signature="4742:4771" ph="delete from " />
-                <marker date="1472897832000" expanded="true" signature="6775:6800" ph="select missi... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+            <state relative-caret-position="688">
+              <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/apis.py">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="42" column="93" selection-start-line="42" selection-start-column="93" selection-end-line="42" selection-end-column="93" />
+            <state relative-caret-position="153">
+              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -285,8 +53,8 @@
       <file leaf-file-name="handlers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/handlers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="373">
+              <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
               <folding>
                 <element signature="e#90#146#0" expanded="true" />
               </folding>
@@ -294,21 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="signin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/signin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -329,8 +87,8 @@
       <file leaf-file-name="blogs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/blogs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -339,8 +97,8 @@
       <file leaf-file-name="__base__.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/__base__.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -349,8 +107,8 @@
       <file leaf-file-name="coroweb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/coroweb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+            <state relative-caret-position="75">
+              <caret line="161" column="8" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -378,15 +136,15 @@
         <option value="$PROJECT_DIR$/www/orm.py" />
         <option value="$PROJECT_DIR$/www/config_default.py" />
         <option value="$PROJECT_DIR$/www/config_override.py" />
-        <option value="$PROJECT_DIR$/www/config.py" />
         <option value="$PROJECT_DIR$/www/testDatabase.py" />
         <option value="$PROJECT_DIR$/www/testasihttp.py" />
         <option value="$PROJECT_DIR$/testORM.py" />
-        <option value="$PROJECT_DIR$/www/coroweb.py" />
         <option value="$PROJECT_DIR$/www/apis.py" />
         <option value="$PROJECT_DIR$/www/app.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/www/templates/register.html" />
+        <option value="$PROJECT_DIR$/www/coroweb.py" />
+        <option value="$PROJECT_DIR$/www/config.py" />
         <option value="$PROJECT_DIR$/www/templates/signin.html" />
         <option value="$PROJECT_DIR$/www/handlers.py" />
       </list>
@@ -399,9 +157,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="668" />
     <option name="y" value="23" />
-    <option name="width" value="1276" />
+    <option name="width" value="622" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -431,96 +189,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awesome-python3-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awesome-python3-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awesome-python3-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awesome-python3-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awesome-python3-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awesome-python3-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awesome-python3-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awesome-python3-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awesome-python3-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awesome-python3-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awesome-python3-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
     </panes>
@@ -848,10 +517,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1276" height="777" extended-state="6" />
-    <editor active="false" />
+    <frame x="668" y="23" width="622" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19773096" sideWeight="0.48321167" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3637931" sideWeight="0.48321167" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5032415" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -859,7 +528,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6481752" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51970804" sideWeight="0.49189627" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959481" sideWeight="0.4948905" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5240876" sideWeight="0.49027553" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5240876" sideWeight="0.49027553" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19448946" sideWeight="0.5167883" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -968,7 +637,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#113#130#0" expanded="true" />
+            <element signature="e#113#130#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1214,14 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/config_override.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1242,16 +903,8 @@
         <state relative-caret-position="-138">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding>
-            <element signature="e#113#130#0" expanded="true" />
+            <element signature="e#113#130#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/coroweb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1285,14 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.2/python_stubs/776880377/_sqlite3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -1301,44 +946,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/coroweb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="161" column="8" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-287">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/signin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/blogs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/__base__.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/handlers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="373">
+          <caret line="85" column="11" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
           <folding>
             <element signature="e#90#146#0" expanded="true" />
           </folding>
