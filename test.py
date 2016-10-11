@@ -77,31 +77,33 @@ import asyncio
 #        print(attr)
 
 #test('testORM')
-import os
-from jinja2 import Environment, FileSystemLoader
-import logging
+#staticimport os
+#from jinja2 import Environment, FileSystemLoader
+#import logging
+#
+#def init_jinja2(app, **kw):
+#    options = dict(
+#        autoescape = kw.get('autoescape', True),
+#        block_start_string = kw.get('block_start_string', '{%'),
+#        block_end_string = kw.get('block_end_string', '%}'),
+#        variable_start_string = kw.get('variable_start_string', '{{'),
+#        variable_end_string = kw.get('variable_end_string', '}}'),
+#        auto_reload = kw.get('auto_reload', True)
+#    )
+#
+#    path = kw.get('path', None)
+#    if path is None:
+#        path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
+#    logging.info('set jinja2 template path: %s' % path)
+#    env = Environment(loader=FileSystemLoader(path), **options)
+#    print(env)
+#    filters = kw.get('filters', None)
+#    if filters is not None:
+#        for name, f in filters.items():
+#            env.filters[name] = f
+#    app['__templating__'] = env
 
-def init_jinja2(app, **kw):
-    options = dict(
-        autoescape = kw.get('autoescape', True),
-        block_start_string = kw.get('block_start_string', '{%'),
-        block_end_string = kw.get('block_end_string', '%}'),
-        variable_start_string = kw.get('variable_start_string', '{{'),
-        variable_end_string = kw.get('variable_end_string', '}}'),
-        auto_reload = kw.get('auto_reload', True)
-    )
+#r = {'gdsfsd': 1, 'reer':2}
+#print(**r)
 
-    path = kw.get('path', None)
-    if path is None:
-        path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
-    logging.info('set jinja2 template path: %s' % path)
-    env = Environment(loader=FileSystemLoader(path), **options)
-    print(env)
-    filters = kw.get('filters', None)
-    if filters is not None:
-        for name, f in filters.items():
-            env.filters[name] = f
-    app['__templating__'] = env
 
-r = {'gdsfsd': 1, 'reer':2}
-print(**r)
