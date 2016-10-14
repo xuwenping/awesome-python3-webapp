@@ -42,7 +42,7 @@ def get_required_kw_args(fn):
     args = []
     params = inspect.signature(fn).parameters
     for name, param in params.items():
-        if param.kind == inspect.Parameter.KEYWORD_ONLY:
+        if param.kind == inspect.Parameter.KEYWORD_ONLY and param.default == inspect.Parameter.empty:
             args.append(name)
     return tuple(args)
 
@@ -86,12 +86,12 @@ class RequestHandler(object):
         self._has_var_kw_arg = has_var_kw_arg(fn)
         self._has_named_kw_args = has_named_kw_args(fn)
         self._named_kw_args = get_named_kw_args(fn)
-        self._required_ke_args = get_required_kw_args(fn)
+        self._required_kw_args = get_required_kw_args(fn)
 
-    @asyncio.coroutine
+    asyncio.coroutine
     def __call__(self, request):
         kw = None
-        if self._has_var_kw_arg or self._has_named_kw_args or self._has_request_arg:
+        if self._has_var_kw_arg or self._has_named_kw_args or self._required_kw_args:
             if request.method == 'POST':
                 if not request.content_type:
                     return web.HTTPBadRequest('Missing Content-Type')
@@ -131,8 +131,8 @@ class RequestHandler(object):
         if self._has_request_arg:
             kw['request'] = request
         # check required kw:
-        if self._required_ke_args:
-            for name in self._required_ke_args:
+        if self._required_kw_args:
+            for name in self._required_kw_args:
                 if not name in kw:
                     return web.HTTPBadRequest('Missing argument: %s' % name)
         logging.info('call with args: %s' % str(kw))
@@ -173,6 +173,3 @@ def add_routes(app, module_name):
             path = getattr(fn, '__route__', None)
             if method and path:
                 add_route(app, fn)
-
-
-

@@ -54,13 +54,13 @@ async def auth_factory(app, handler):
         request.__user__ = None
         cookie_str = request.cookies.get(COOKIE_NAME)
         if cookie_str:
-            user = await coo(cookie_str)
+            user = await cookie2user(cookie_str)
             if user:
                 logging.info('set current user: %s' % user.email)
                 request.__user__ = user
-        if request.path.startswith('/manage/') and (request.__user__ is None or not request.__user__.admin):
+        if request.path.startswith('/manage/') and (request.__user__ is None or request.__user__.admin):
             return web.HTTPFound('/signin')
-        return (await handler(request))
+        return await handler(request)
     return auth
 
 async def data_factory(app, handler):
@@ -130,7 +130,7 @@ def datetime_filter(t):
 async def init(loop):
     await orm.create_pool(loop=loop, host='127.0.0.1', port=3306, user='root', password='123456', db='awesome')
     app = web.Application(loop=loop, middlewares=[
-        logger_factory, response_factory
+        logger_factory, auth_factory, data_factory, response_factory
     ])
     init_jinja2(app, filters=dict(datetime=datetime_filter))
     add_routes(app, 'handlers')
