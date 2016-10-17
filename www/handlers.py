@@ -91,15 +91,17 @@ def index(request):
     }
 
 @get('/blog/{id}')
-async def get_blog(id):
+async def get_blog(id, request):
     blog = await Blog.find(id)
-    comments = await Comment.findAll('blog_id=?', [id], orderBy='create_at desc')
+    comments = await Comment.findAll('blog_id=?', [id], orderBy='created_at desc')
     for c in comments:
         c.html_content = text2html(c.content)
+    print('handlers.py line 82 %s' % request.__user__)
     blog.html_content = markdown2.markdown(blog.content)
     return {
         '__template__': 'blog.html',
         'blog': blog,
+        '__user__': request.__user__,
         'comments': comments
     }
 
@@ -213,3 +215,10 @@ async def api_create_blog(request, *, name, summary, content):
     blog = Blog(user_id=request.__user__.id, user_name=request.__user__.name, user_image=request.__user__.image, name=name.strip(), summary=summary.strip(), content=content.strip())
     await blog.save()
     return blog
+
+@post('/api/blogs/{id}/delete')
+async def api_delete_blog(request, *, id):
+    blog = await Blog.find(id)
+    if blog:
+        await blog.remove()
+    return dict(id=id)

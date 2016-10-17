@@ -98,6 +98,7 @@ async def response_factory(app, handle):
                 resp.content_type = 'application/json;charset=utf-8'
                 return resp
             else:
+                r['__user__'] = request.__user__
                 resp = web.Response(body=app['__templating__'].get_template(template).render(**r).encode('utf-8'))
                 resp.content_type = 'text/html;charset=utf-8'
                 return resp
@@ -115,7 +116,8 @@ async def response_factory(app, handle):
     return response
 
 def datetime_filter(t):
-    delta = int(time.time() - t)
+    logging.info('test %s' % t)
+    delta = int(time.time())
     if delta < 60:
         return u'1分钟前'
     if delta < 3600:
@@ -124,7 +126,7 @@ def datetime_filter(t):
         return u'%s小时前' % (delta // 3600)
     if delta < 604800:
         return u'%天前' % (delta // 86400)
-    dt = datetime.fromtimestamp(t)
+    dt = datetime.fromtimestamp(delta)
     return u'%s年%s月%s日' % (dt.year, dt.month, dt.day)
 
 async def init(loop):
